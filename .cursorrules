@@ -1,0 +1,6 @@
+{
+  "node_commands": {
+    "run_before": "nvm use v20.15.1",
+    "commands": ["npm", "npx", "node", "yarn", "pnpm"]
+  }
+}
