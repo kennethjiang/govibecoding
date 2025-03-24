@@ -37,3 +37,36 @@
 .navbar__items {
   justify-content: center;
 }
+
+/* Add styles for the PWA reload popup */
+.pwa-reload-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 9999;
+  max-width: 300px;
+}
+
+.pwa-reload-popup__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pwa-reload-popup button {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.pwa-reload-popup button:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
