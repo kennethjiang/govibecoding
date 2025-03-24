@@ -18,11 +18,11 @@ export default function BlogPostItemWrapper(props) {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     'headline': metadata.title,
-    'description': metadata.description || 'Learn about vibe coding techniques and mindful development approaches',
+    'description': metadata.description || 'Learn about vibe coding and AI-assisted programming with large language models',
     'datePublished': metadata.date,
     'dateModified': metadata.lastUpdatedAt || metadata.date,
     'url': postUrl,
-    'keywords': 'vibe coding, flow state programming, positive coding, mindful development, developer well-being',
+    'keywords': 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, Andrej Karpathy',
     'author': {
       '@type': 'Person',
       'name': metadata.authors?.[0]?.name || 'Go Vibe Coding',
@@ -49,7 +49,7 @@ export default function BlogPostItemWrapper(props) {
             <script type="application/ld+json">
               {JSON.stringify(jsonLd)}
             </script>
-            <meta name="keywords" content="vibe coding, flow state programming, positive coding, mindful development, developer well-being" />
+            <meta name="keywords" content="vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, Andrej Karpathy" />
           </>
         )}
       </Head>

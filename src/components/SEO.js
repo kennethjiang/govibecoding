@@ -20,9 +20,9 @@ export default function SEO({
 
   const metaKeywords = [
     ...keywords,
-    'vibe coding', 'flow state programming', 'positive coding',
-    'mindful development', 'zen coding', 'coding lifestyle',
-    'programming mindset', 'developer well-being',
+    'vibe coding', 'AI-assisted programming', 'LLM-generated code',
+    'natural language programming', 'prompt engineering', 'conversational coding',
+    'AI programming', 'Andrej Karpathy', 'LLM coding',
   ].join(', ');
 
   return (

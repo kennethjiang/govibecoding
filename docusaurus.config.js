@@ -3,7 +3,7 @@ const {themes} = require('prism-react-renderer');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Go Vibe Coding',
-  tagline: 'Code with Positive Vibes and Flow State',
+  tagline: 'Programming through AI-assisted natural language',
   favicon: 'img/favicon.svg',
   url: 'https://govibecoding.com',
   baseUrl: '/',
@@ -15,12 +15,12 @@ const config = {
 
   // SEO related metadata
   customFields: {
-    keywords: 'vibe coding, flow state programming, positive coding, mindful development, zen coding, coding lifestyle, programming mindset, developer well-being',
+    keywords: 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, conversational coding, AI programming, Andrej Karpathy, LLM coding',
     twitterCard: 'summary_large_image',
     twitterSite: '@govibecoding',
     ogType: 'website',
     ogImage: 'https://govibecoding.com/img/og-image.png',
-    ogImageAlt: 'Go Vibe Coding - Code with Positive Vibes',
+    ogImageAlt: 'Go Vibe Coding - Programming with AI assistance',
     ogSiteName: 'Go Vibe Coding',
   },
 
@@ -112,7 +112,7 @@ const config = {
           feedOptions: {
             type: 'all',
             title: 'Go Vibe Coding Blog',
-            description: 'Learn to code with positive vibes, flow state and mindful development practices',
+            description: 'Learn about AI-assisted programming using natural language prompts to generate code with LLMs',
             copyright: `Copyright © ${new Date().getFullYear()} Go Vibe Coding.`,
           },
         },
@@ -131,14 +131,14 @@ const config = {
 
   themeConfig: {
     metadata: [
-      {name: 'keywords', content: 'vibe coding, flow state programming, positive coding, mindful development, zen coding, coding lifestyle, programming mindset, developer well-being'},
+      {name: 'keywords', content: 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, conversational coding, AI programming, Andrej Karpathy, LLM coding'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:site', content: '@govibecoding'},
       {name: 'og:type', content: 'website'},
       {name: 'og:image', content: 'https://govibecoding.com/img/og-image.png'},
-      {name: 'og:image:alt', content: 'Go Vibe Coding - Code with Positive Vibes'},
+      {name: 'og:image:alt', content: 'Go Vibe Coding - Programming with AI assistance'},
       {name: 'og:site_name', content: 'Go Vibe Coding'},
-      {name: 'description', content: 'Learn to code in a state of flow and positive vibes. Discover techniques for mindful development, programmer well-being, and maintaining good energy while writing code.'},
+      {name: 'description', content: 'Learn about vibe coding - the approach coined by Andrej Karpathy where developers use AI and large language models to generate code through natural language prompts. Discover techniques for effective prompt engineering, AI-assisted development, and the changing role of programmers.'},
     ],
     image: 'img/og-image.png',
     navbar: {

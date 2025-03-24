@@ -6,10 +6,11 @@ Disallow: /search
 Disallow: /tags/
 Disallow: /tags/*
 Allow: /tags/vibe-coding
-Allow: /tags/flow-state
-Allow: /tags/mindful-development
-Allow: /tags/developer-wellbeing
-Allow: /tags/positive-coding
+Allow: /tags/ai-assisted-programming
+Allow: /tags/llm-code
+Allow: /tags/prompt-engineering
+Allow: /tags/andrej-karpathy
+Allow: /tags/natural-language-programming
 
 # Sitemap
 Sitemap: https://govibecoding.com/sitemap.xml
