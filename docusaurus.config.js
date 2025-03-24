@@ -159,6 +159,16 @@ const config = {
           position: 'left',
           label: 'Docs',
         },
+        {
+          to: '/tags',
+          label: 'Topics',
+          position: 'left',
+        },
+        {
+          to: '/tags/vibe-coding',
+          label: 'Vibe Coding',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -174,6 +184,27 @@ const config = {
             {
               label: 'Docs',
               to: '/docs/intro',
+            },
+            {
+              label: 'Topics',
+              to: '/tags',
+            },
+          ],
+        },
+        {
+          title: 'Vibe Coding Topics',
+          items: [
+            {
+              label: 'AI-Assisted Programming',
+              to: '/tags/ai-assisted-programming',
+            },
+            {
+              label: 'Prompt Engineering',
+              to: '/tags/prompt-engineering',
+            },
+            {
+              label: 'LLM Code',
+              to: '/tags/llm-code',
             },
           ],
         },
