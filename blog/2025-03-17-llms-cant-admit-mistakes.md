@@ -2,8 +2,12 @@
 slug: llms-cant-admit-mistakes
 title: Vibe Coding - Why Can't LLMs Just Admit Mistakes
 authors: kennethjiang
+date: 2025-03-17
 tags: [vibe-coding, llm, ai-assisted-programming, hallucination]
 ---
+
+![LLMs Can't Admit Mistakes](/img/blog/llms-cant-admit-mistakes-cover.webp)
+
 Ever been deep into a vibe coding session, grooving along with your AI assistant, only to have your flow completely disrupted because your AI buddy stubbornly refuses to admit it's made a mistake? Yep, same. Today, let's dive into the quirky world of vibe coding and unravel one of its biggest headaches—LLMs' pesky self-reflection limitations.
 
 ## **What Exactly Is Vibe Coding?**
