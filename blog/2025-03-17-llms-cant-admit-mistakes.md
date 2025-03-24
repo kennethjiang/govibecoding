@@ -10,6 +10,8 @@ tags: [vibe-coding, llm, ai-assisted-programming, hallucination]
 
 Ever been deep into a vibe coding session, grooving along with your AI assistant, only to have your flow completely disrupted because your AI buddy stubbornly refuses to admit it's made a mistake? Yep, same. Today, let's dive into the quirky world of vibe coding and unravel one of its biggest headaches—LLMs' pesky self-reflection limitations.
 
+<!-- truncate -->
+
 ## **What Exactly Is Vibe Coding?**
 
 Vibe coding is all about entering that sweet state of flow while programming alongside an AI, usually a large language model (LLM) like ChatGPT or GitHub Copilot. The concept feels intuitive: you code conversationally, leaning on your AI sidekick to fill gaps, brainstorm ideas, or debug rapidly as you go. When it works, it feels almost magical—until suddenly it doesn't.
