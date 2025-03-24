@@ -3,7 +3,6 @@ slug: llms-are-lazy
 title: LLMs Are Lazy - Decoding "Summarization" in Vibe Coding
 authors: kennethjiang
 tags: [vibe-coding, llm, ai-assisted-programming, translation]
-image: /img/blog/llms-lazy-cover.webp
 ---
 
 Embarking on the journey of translating C++ code into TypeScript, I enlisted the assistance of Claude 3.5 Sonnet, Anthropic's AI language model. My objective was to achieve a faithful, line-by-line translation of Config.hpp and Config.cpp, ensuring type safety by utilizing TypeScript types that closely mirror the original C++ structs and classes. The aim was to preserve the original file and class structure.
