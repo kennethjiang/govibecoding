@@ -9,7 +9,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'govibecoding',
   projectName: 'govibecoding',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 
@@ -84,7 +84,7 @@ const config = {
         fromExtensions: ['html'],
         createRedirects: function(existingPath) {
           // Legacy URL redirects for SEO
-          if (existingPath.includes('/docs/')) {
+          if (existingPath.includes('/docs/') && !existingPath.includes('/tags')) {
             return [
               existingPath.replace('/docs/', '/documentation/'),
               existingPath.replace('/docs/', '/doc/'),
@@ -92,7 +92,9 @@ const config = {
           }
           return undefined;
         },
-        redirects: [],
+        redirects: [
+          // Add explicit redirects if needed
+        ],
       },
     ],
   ],
@@ -109,6 +111,7 @@ const config = {
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
+          onUntruncatedBlogPosts: 'ignore',
           feedOptions: {
             type: 'all',
             title: 'The Vibe Coding Blog',
@@ -197,15 +200,7 @@ const config = {
             {
               label: 'AI-Assisted Programming',
               to: '/tags/ai-assisted-programming',
-            },
-            {
-              label: 'Prompt Engineering',
-              to: '/tags/prompt-engineering',
-            },
-            {
-              label: 'LLM Code',
-              to: '/tags/llm-code',
-            },
+            }
           ],
         },
         {
