@@ -18,10 +18,11 @@ export default function BlogPostItemWrapper(props) {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     'headline': metadata.title,
-    'description': metadata.description || '',
+    'description': metadata.description || 'Learn about vibe coding techniques and mindful development approaches',
     'datePublished': metadata.date,
     'dateModified': metadata.lastUpdatedAt || metadata.date,
     'url': postUrl,
+    'keywords': 'vibe coding, flow state programming, positive coding, mindful development, developer well-being',
     'author': {
       '@type': 'Person',
       'name': metadata.authors?.[0]?.name || 'Go Vibe Coding',
@@ -34,15 +35,22 @@ export default function BlogPostItemWrapper(props) {
         'url': `${siteConfig.url}/img/logo.svg`,
       },
     },
+    'mainEntityOfPage': {
+      '@type': 'WebPage',
+      '@id': postUrl
+    }
   };
 
   return (
     <>
       <Head>
         {metadata && (
-          <script type="application/ld+json">
-            {JSON.stringify(jsonLd)}
-          </script>
+          <>
+            <script type="application/ld+json">
+              {JSON.stringify(jsonLd)}
+            </script>
+            <meta name="keywords" content="vibe coding, flow state programming, positive coding, mindful development, developer well-being" />
+          </>
         )}
       </Head>
       <BlogPostItem {...props} />

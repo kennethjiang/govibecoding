@@ -3,7 +3,7 @@ const {themes} = require('prism-react-renderer');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Go Vibe Coding',
-  tagline: 'Coding with Good Vibes',
+  tagline: 'Code with Positive Vibes and Flow State',
   favicon: 'img/favicon.svg',
   url: 'https://govibecoding.com',
   baseUrl: '/',
@@ -15,12 +15,12 @@ const config = {
 
   // SEO related metadata
   customFields: {
-    keywords: 'coding, programming, web development, javascript, tutorials',
+    keywords: 'vibe coding, flow state programming, positive coding, mindful development, zen coding, coding lifestyle, programming mindset, developer well-being',
     twitterCard: 'summary_large_image',
     twitterSite: '@govibecoding',
     ogType: 'website',
     ogImage: 'https://govibecoding.com/img/og-image.png',
-    ogImageAlt: 'Go Vibe Coding',
+    ogImageAlt: 'Go Vibe Coding - Code with Positive Vibes',
     ogSiteName: 'Go Vibe Coding',
   },
 
@@ -112,7 +112,7 @@ const config = {
           feedOptions: {
             type: 'all',
             title: 'Go Vibe Coding Blog',
-            description: 'Coding with Good Vibes - Latest articles',
+            description: 'Learn to code with positive vibes, flow state and mindful development practices',
             copyright: `Copyright © ${new Date().getFullYear()} Go Vibe Coding.`,
           },
         },
@@ -131,13 +131,14 @@ const config = {
 
   themeConfig: {
     metadata: [
-      {name: 'keywords', content: 'coding, programming, web development, javascript, tutorials'},
+      {name: 'keywords', content: 'vibe coding, flow state programming, positive coding, mindful development, zen coding, coding lifestyle, programming mindset, developer well-being'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:site', content: '@govibecoding'},
       {name: 'og:type', content: 'website'},
       {name: 'og:image', content: 'https://govibecoding.com/img/og-image.png'},
-      {name: 'og:image:alt', content: 'Go Vibe Coding'},
+      {name: 'og:image:alt', content: 'Go Vibe Coding - Code with Positive Vibes'},
       {name: 'og:site_name', content: 'Go Vibe Coding'},
+      {name: 'description', content: 'Learn to code in a state of flow and positive vibes. Discover techniques for mindful development, programmer well-being, and maintaining good energy while writing code.'},
     ],
     image: 'img/og-image.png',
     navbar: {

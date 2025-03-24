@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="#3578e5"/>
-  <text x="600" y="315" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#ffffff">
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="#ffffff">
     Go Vibe Coding
   </text>
-  <text x="600" y="390" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="#ffffff">
-    Coding with Good Vibes
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="#ffffff">
+    Code with Positive Vibes and Flow State
+  </text>
+  <text x="600" y="420" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#ffffff">
+    Mindful Development • Programming Wellness • Zen Coding
   </text>
 </svg>

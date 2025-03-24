@@ -2,9 +2,14 @@ User-agent: *
 Allow: /
 Disallow: /search
 
-# Don't index tag pages
+# Don't index tag pages that aren't related to vibe coding
 Disallow: /tags/
 Disallow: /tags/*
+Allow: /tags/vibe-coding
+Allow: /tags/flow-state
+Allow: /tags/mindful-development
+Allow: /tags/developer-wellbeing
+Allow: /tags/positive-coding
 
 # Sitemap
 Sitemap: https://govibecoding.com/sitemap.xml

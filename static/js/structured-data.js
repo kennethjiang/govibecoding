@@ -16,7 +16,8 @@
       '@type': 'WebSite',
       'name': 'Go Vibe Coding',
       'url': window.location.origin,
-      'description': 'A blog about coding with good vibes, tutorials, and programming tips',
+      'description': 'Learn to code in a state of flow and positive vibes. Discover techniques for mindful development, programmer well-being, and maintaining good energy while writing code.',
+      'keywords': 'vibe coding, flow state programming, positive coding, mindful development, zen coding, coding lifestyle',
       'potentialAction': {
         '@type': 'SearchAction',
         'target': `${window.location.origin}/search?q={search_term_string}`,
@@ -55,7 +56,8 @@
           }
         },
         'datePublished': datePublished,
-        'dateModified': datePublished
+        'dateModified': datePublished,
+        'keywords': 'vibe coding, flow state programming, positive coding, mindful development'
       };
     }
 
@@ -65,7 +67,8 @@
         '@context': 'https://schema.org',
         '@type': 'TechArticle',
         'headline': document.querySelector('h1')?.textContent || document.title,
-        'description': document.querySelector('meta[name="description"]')?.content || '',
+        'description': document.querySelector('meta[name="description"]')?.content || 'Learn about vibe coding techniques and mindful development practices',
+        'keywords': 'vibe coding guide, flow state programming tutorial, mindful development techniques',
         'author': {
           '@type': 'Organization',
           'name': 'Go Vibe Coding'

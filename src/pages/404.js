@@ -11,20 +11,20 @@ export default function NotFound() {
     <>
       <Head>
         <title>404 - Page Not Found | {siteConfig.title}</title>
-        <meta name="description" content="The page you were looking for doesn't exist" />
-        <meta name="keywords" content="404, not found, missing page" />
+        <meta name="description" content="The page you were looking for doesn't exist. Keep your positive vibes and explore our vibe coding content instead." />
+        <meta name="keywords" content="vibe coding, flow state programming, positive coding, mindful development" />
         <meta property="og:title" content={`404 - Page Not Found | ${siteConfig.title}`} />
-        <meta property="og:description" content="The page you were looking for doesn't exist" />
+        <meta property="og:description" content="The page you were looking for doesn't exist. Keep your positive vibes and explore our vibe coding content instead." />
       </Head>
       <Layout title="404 - Page Not Found">
         <main className="container margin-vert--xl">
           <div className="row">
             <div className="col col--6 col--offset-3">
               <h1 className="hero__title">Page Not Found</h1>
-              <p>We couldn't find what you were looking for.</p>
+              <p>We couldn't find what you were looking for. Keep your positive vibes and explore our content instead.</p>
               <div className="margin-vert--lg">
                 <Link className="button button--primary" to="/">
-                  Go to Homepage
+                  Return to Vibe Coding
                 </Link>
               </div>
             </div>
