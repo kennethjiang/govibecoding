@@ -11,15 +11,88 @@ const config = {
   projectName: 'govibecoding',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
+
+  // SEO related metadata
+  customFields: {
+    keywords: 'coding, programming, web development, javascript, tutorials',
+    twitterCard: 'summary_large_image',
+    twitterSite: '@govibecoding',
+    ogType: 'website',
+    ogImage: 'https://govibecoding.com/img/og-image.png',
+    ogImageAlt: 'Go Vibe Coding',
+    ogSiteName: 'Go Vibe Coding',
+  },
 
   plugins: [
     [
-      '@docusaurus/plugin-sitemap',
+      '@docusaurus/plugin-pwa',
       {
-        changefreq: 'weekly',
-        priority: 0.5,
-        ignorePatterns: ['/tags/**'],
-        filename: 'sitemap.xml',
+        debug: false,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/favicon.svg',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#3578e5',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/apple-touch-icon.png',
+          },
+        ],
+      },
+    ],
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 85,
+        max: 2000,
+        min: 640,
+        steps: 4,
+        disableInDev: false,
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html'],
+        createRedirects: function(existingPath) {
+          // Legacy URL redirects for SEO
+          if (existingPath.includes('/docs/')) {
+            return [
+              existingPath.replace('/docs/', '/documentation/'),
+              existingPath.replace('/docs/', '/doc/'),
+            ];
+          }
+          return undefined;
+        },
+        redirects: [],
       },
     ],
   ],
@@ -30,10 +103,18 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         blog: {
           showReadingTime: true,
           routeBasePath: '/',
+          feedOptions: {
+            type: 'all',
+            title: 'Go Vibe Coding Blog',
+            description: 'Coding with Good Vibes - Latest articles',
+            copyright: `Copyright © ${new Date().getFullYear()} Go Vibe Coding.`,
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -41,17 +122,24 @@ const config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       },
     ],
   ],
 
   themeConfig: {
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-    },
+    metadata: [
+      {name: 'keywords', content: 'coding, programming, web development, javascript, tutorials'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@govibecoding'},
+      {name: 'og:type', content: 'website'},
+      {name: 'og:image', content: 'https://govibecoding.com/img/og-image.png'},
+      {name: 'og:image:alt', content: 'Go Vibe Coding'},
+      {name: 'og:site_name', content: 'Go Vibe Coding'},
+    ],
+    image: 'img/og-image.png',
     navbar: {
       title: 'Go Vibe Coding',
       logo: {
@@ -104,7 +192,18 @@ const config = {
       theme: themes.github,
       darkTheme: themes.dracula,
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
   },
+  scripts: [
+    {
+      src: '/js/structured-data.js',
+      async: true,
+    },
+  ],
 };
 
 module.exports = config;

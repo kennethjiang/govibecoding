@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /search
 
+# Don't index tag pages
+Disallow: /tags/
+Disallow: /tags/*
+
+# Sitemap
 Sitemap: https://govibecoding.com/sitemap.xml
