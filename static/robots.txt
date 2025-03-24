@@ -2,23 +2,9 @@ User-agent: *
 Allow: /
 Disallow: /search
 
-# Don't index tag pages that aren't related to vibe coding
-Disallow: /tags/
-Disallow: /tags/*
-Allow: /tags/vibe-coding
-Allow: /tags/ai-assisted-programming
-Allow: /tags/llm-code
-Allow: /tags/prompt-engineering
-Allow: /tags/andrej-karpathy
-Allow: /tags/natural-language-programming
-
-# Allow new tags
-Allow: /tags/llm-self-reflection
-Allow: /tags/large-language-models-limitations
-Allow: /tags/ai-in-software-development
-Allow: /tags/ai-coding-assistant
-Allow: /tags/ai-coding
-Allow: /tags/ai-coding-tools
+# Allow all tag pages
+Allow: /tags/
+Allow: /tags/*
 
 # Sitemap
 Sitemap: https://govibecoding.com/sitemap.xml
