@@ -2,7 +2,7 @@ const {themes} = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Go Vibe Coding',
+  title: 'The Vibe Coding Blog',
   tagline: 'Programming through AI-assisted natural language',
   favicon: 'img/favicon.svg',
   url: 'https://govibecoding.com',
@@ -20,8 +20,8 @@ const config = {
     twitterSite: '@govibecoding',
     ogType: 'website',
     ogImage: 'https://govibecoding.com/img/og-image.png',
-    ogImageAlt: 'Go Vibe Coding - Programming with AI assistance',
-    ogSiteName: 'Go Vibe Coding',
+    ogImageAlt: 'The Vibe Coding Blog - Programming with AI assistance',
+    ogSiteName: 'The Vibe Coding Blog',
   },
 
   plugins: [
@@ -111,9 +111,9 @@ const config = {
           routeBasePath: '/',
           feedOptions: {
             type: 'all',
-            title: 'Go Vibe Coding Blog',
+            title: 'The Vibe Coding Blog',
             description: 'Learn about AI-assisted programming using natural language prompts to generate code with LLMs',
-            copyright: `Copyright © ${new Date().getFullYear()} Go Vibe Coding.`,
+            copyright: `Copyright © ${new Date().getFullYear()} The Vibe Coding Blog.`,
           },
         },
         theme: {
@@ -136,15 +136,15 @@ const config = {
       {name: 'twitter:site', content: '@govibecoding'},
       {name: 'og:type', content: 'website'},
       {name: 'og:image', content: 'https://govibecoding.com/img/og-image.png'},
-      {name: 'og:image:alt', content: 'Go Vibe Coding - Programming with AI assistance'},
-      {name: 'og:site_name', content: 'Go Vibe Coding'},
+      {name: 'og:image:alt', content: 'The Vibe Coding Blog - Programming with AI assistance'},
+      {name: 'og:site_name', content: 'The Vibe Coding Blog'},
       {name: 'description', content: 'Learn about vibe coding - the approach coined by Andrej Karpathy where developers use AI and large language models to generate code through natural language prompts. Discover techniques for effective prompt engineering, AI-assisted development, and the changing role of programmers.'},
     ],
     image: 'img/og-image.png',
     navbar: {
-      title: 'Go Vibe Coding',
+      title: 'The Vibe Coding Blog',
       logo: {
-        alt: 'Go Vibe Coding Logo',
+        alt: 'The Vibe Coding Blog Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -218,7 +218,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Go Vibe Coding. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Vibe Coding Blog. Built with Docusaurus.`,
     },
     prism: {
       theme: themes.github,
