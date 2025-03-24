@@ -15,7 +15,7 @@ const config = {
 
   // SEO related metadata
   customFields: {
-    keywords: 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, conversational coding, AI programming, Andrej Karpathy, LLM coding',
+    keywords: 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, conversational coding, AI programming, Andrej Karpathy, LLM coding, LLM self-reflection, AI coding tools, Large Language Models limitations, AI in software development, AI Coding Assistant',
     twitterCard: 'summary_large_image',
     twitterSite: '@govibecoding',
     ogType: 'website',
@@ -134,7 +134,7 @@ const config = {
 
   themeConfig: {
     metadata: [
-      {name: 'keywords', content: 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, conversational coding, AI programming, Andrej Karpathy, LLM coding'},
+      {name: 'keywords', content: 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, conversational coding, AI programming, Andrej Karpathy, LLM coding, LLM self-reflection, AI coding tools, Large Language Models limitations, AI in software development, AI Coding Assistant'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:site', content: '@govibecoding'},
       {name: 'og:type', content: 'website'},
@@ -172,6 +172,25 @@ const config = {
           label: 'Vibe Coding',
           position: 'right',
         },
+        {
+          type: 'dropdown',
+          label: 'AI Coding',
+          position: 'right',
+          items: [
+            {
+              label: 'AI Coding Tools',
+              to: '/tags/ai-coding-tools',
+            },
+            {
+              label: 'LLM Limitations',
+              to: '/tags/large-language-models-limitations',
+            },
+            {
+              label: 'LLM Self-Reflection',
+              to: '/tags/llm-self-reflection',
+            },
+          ],
+        },
       ],
     },
     footer: {
@@ -200,6 +219,22 @@ const config = {
             {
               label: 'AI-Assisted Programming',
               to: '/tags/ai-assisted-programming',
+            },
+            {
+              label: 'LLM Self-Reflection',
+              to: '/tags/llm-self-reflection',
+            },
+            {
+              label: 'LLM Limitations',
+              to: '/tags/large-language-models-limitations',
+            },
+            {
+              label: 'AI Coding Tools',
+              to: '/tags/ai-coding-tools',
+            },
+            {
+              label: 'AI in Software Development',
+              to: '/tags/ai-in-software-development',
             }
           ],
         },

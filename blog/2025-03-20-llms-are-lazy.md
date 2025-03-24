@@ -2,7 +2,8 @@
 slug: llms-are-lazy
 title: LLMs Are Lazy - Decoding "Summarization" in Vibe Coding
 authors: kennethjiang
-tags: [vibe-coding, llm, ai-assisted-programming, translation]
+date: 2025-03-20
+tags: [vibe-coding, llm, ai-assisted-programming, translation, Large-Language-Models-limitations, AI-in-software-development, AI-Coding-Assistant, AI-coding, AI-Coding-Tools]
 ---
 
 ![LLM Lazy Summarization](/img/blog/llms-lazy-cover.webp)
