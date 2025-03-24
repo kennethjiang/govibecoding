@@ -25,11 +25,11 @@ export default function BlogPostItemWrapper(props) {
     'keywords': 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, Andrej Karpathy',
     'author': {
       '@type': 'Person',
-      'name': metadata.authors?.[0]?.name || 'Go Vibe Coding',
+      'name': metadata.authors?.[0]?.name || 'The Vibe Coding Blog',
     },
     'publisher': {
       '@type': 'Organization',
-      'name': 'Go Vibe Coding',
+      'name': 'The Vibe Coding Blog',
       'logo': {
         '@type': 'ImageObject',
         'url': `${siteConfig.url}/img/logo.svg`,

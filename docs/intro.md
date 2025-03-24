@@ -6,7 +6,7 @@ tags: [vibe-coding, ai-assisted-programming, getting-started]
 
 # Introduction to Vibe Coding
 
-Welcome to Go Vibe Coding, your resource center for mastering AI-assisted programming! As coined by Andrej Karpathy in 2025, "vibe coding" refers to the practice of using large language models (LLMs) to generate code through natural language prompts.
+Welcome to The Vibe Coding Blog, your resource center for mastering AI-assisted programming! As coined by Andrej Karpathy in 2025, "vibe coding" refers to the practice of using large language models (LLMs) to generate code through natural language prompts.
 
 ## Getting Started with Vibe Coding
 

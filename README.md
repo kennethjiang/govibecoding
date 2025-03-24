@@ -1,4 +1,4 @@
-# Go Vibe Coding
+# The Vibe Coding Blog
 
 A blog about coding with good vibes, built with [Docusaurus](https://docusaurus.io/).
 

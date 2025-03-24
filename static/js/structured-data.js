@@ -14,7 +14,7 @@
     structuredData = {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      'name': 'Go Vibe Coding',
+      'name': 'The Vibe Coding Blog',
       'url': window.location.origin,
       'description': 'Learn about vibe coding - the approach where developers use AI and large language models to generate code through natural language prompts, coined by Andrej Karpathy.',
       'keywords': 'vibe coding, AI-assisted programming, LLM-generated code, natural language programming, prompt engineering, conversational coding',
@@ -31,7 +31,7 @@
       const title = document.querySelector('h1')?.textContent || document.title;
       const description = document.querySelector('meta[name="description"]')?.content || '';
       const datePublished = article.querySelector('time')?.datetime || '';
-      const author = article.querySelector('.avatar__name')?.textContent || 'Go Vibe Coding';
+      const author = article.querySelector('.avatar__name')?.textContent || 'The Vibe Coding Blog';
 
       structuredData = {
         '@context': 'https://schema.org',
@@ -49,7 +49,7 @@
         },
         'publisher': {
           '@type': 'Organization',
-          'name': 'Go Vibe Coding',
+          'name': 'The Vibe Coding Blog',
           'logo': {
             '@type': 'ImageObject',
             'url': `${window.location.origin}/img/logo.svg`
@@ -71,11 +71,11 @@
         'keywords': 'vibe coding guide, LLM-generated code tutorial, prompt engineering techniques, conversational coding',
         'author': {
           '@type': 'Organization',
-          'name': 'Go Vibe Coding'
+          'name': 'The Vibe Coding Blog'
         },
         'publisher': {
           '@type': 'Organization',
-          'name': 'Go Vibe Coding',
+          'name': 'The Vibe Coding Blog',
           'logo': {
             '@type': 'ImageObject',
             'url': `${window.location.origin}/img/logo.svg`

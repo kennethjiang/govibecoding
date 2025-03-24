@@ -1,7 +1,7 @@
 {
   "name": "govibecoding",
   "version": "1.0.0",
-  "description": "Go Vibe Coding - A blog about coding with good vibes",
+  "description": "The Vibe Coding Blog - A blog about coding with good vibes",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -18,7 +18,7 @@
     "coding",
     "programming"
   ],
-  "author": "Go Vibe Coding Team",
+  "author": "The Vibe Coding Blog Team",
   "license": "MIT",
   "dependencies": {
     "@docusaurus/core": "^3.0.0",
