@@ -11,6 +11,8 @@ tags: [vibe-coding, docusaurus, blog, seo, development]
 
 Recently, I dove into creating a blog site dedicated to my new passion: vibe coding. I've previously built projects using Docusaurus, a React-based framework optimized for documentation and blogs, making it a natural choice for this project. Initially, I considered using Hashnode for hosting based on Deepseek's recommendation. At first glance, Hashnode appeared to be a great fit—it's easy to set up, visually appealing, and community-oriented. However, a deeper dive revealed serious SEO issues, specifically broken sitemaps and landing pages that couldn't be indexed by Google. Given the importance of SEO for visibility, this was a significant drawback. With that, I quickly decided to migrate my content from Hashnode to a more reliable solution—Docusaurus.
 
+<!--truncate-->
+
 ## Details
 
 The session was an immersive vibe coding experience, where I primarily interacted with my setup: Cursor integrated with Claude 3.7 Sonnet. This setup is powerful because Cursor provides an efficient and intuitive code-editing experience while Claude 3.7 Sonnet offers advanced, responsive, and nuanced AI assistance. Here's a detailed breakdown of every step, including all prompts used and how well the AI assisted:
