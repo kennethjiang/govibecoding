@@ -5,6 +5,8 @@ authors: [kennethjiang]
 tags: [vibe-coding, docusaurus, blog, seo, development]
 ---
 
+![From Hashnode to Docusaurus: A Vibe Coding Journey](/img/blog/vibe-coding-blog-migration-cover.png)
+
 ## Context
 
 Recently, I dove into creating a blog site dedicated to my new passion: vibe coding. I've previously built projects using Docusaurus, a React-based framework optimized for documentation and blogs, making it a natural choice for this project. Initially, I considered using Hashnode for hosting based on Deepseek's recommendation. At first glance, Hashnode appeared to be a great fit—it's easy to set up, visually appealing, and community-oriented. However, a deeper dive revealed serious SEO issues, specifically broken sitemaps and landing pages that couldn't be indexed by Google. Given the importance of SEO for visibility, this was a significant drawback. With that, I quickly decided to migrate my content from Hashnode to a more reliable solution—Docusaurus.
