@@ -5,7 +5,7 @@ authors: [kennethjiang]
 tags: [llm, ai, coding-assistants, development, vibe-coding]
 ---
 
-![When Your Coding Assistant Has Goldfish Memory](/img/blog/llm-goldfish-memory-cover.png)
+![When Your Coding Assistant Has Goldfish Memory](/img/blog/llm-goldfish-memory-cover.jpg)
 
 I've been experimenting with "vibe coding" tools like Cursor and Claude Code (3.5)—the kind of AI pair programmers that promise to understand your code, suggest fixes, and help you fly through bugs without touching the keyboard too much. In theory, it's magical.
 
@@ -43,7 +43,7 @@ It apologizes. It fixes things. And then... it forgets again. This happens over 
 
 But even after multiple reminders—screenshots, pasted examples, highlighted instructions—it keeps forgetting.
 
-![Example of LLM forgetting about BBL.json path](/img/blog/llm-goldfish-memory-example.png)
+![Example of LLM forgetting about BBL.json path](/img/blog/llm-goldfish-memory-example.jpg)
 
 I end up repeating myself like this:
 
@@ -63,7 +63,7 @@ Even worse, it forgets about path mapping between host and container. I try to h
 
 > "data/profiles" in the container = "web_ent/data/profiles" on the host.
 
-![Example of LLM forgetting about Docker path mapping](/img/blog/llm-goldfish-memory-docker-example.png)
+![Example of LLM forgetting about Docker path mapping](/img/blog/llm-goldfish-memory-docker-example.jpg)
 
 Still doesn't stick.
 
