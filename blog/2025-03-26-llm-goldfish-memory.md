@@ -5,6 +5,8 @@ authors: [kennethjiang]
 tags: [llm, ai, coding-assistants, development, vibe-coding]
 ---
 
+![When Your Coding Assistant Has Goldfish Memory](/img/blog/llm-goldfish-memory-cover.png)
+
 I've been experimenting with "vibe coding" tools like Cursor and Claude Code (3.5)—the kind of AI pair programmers that promise to understand your code, suggest fixes, and help you fly through bugs without touching the keyboard too much. In theory, it's magical.
 
 In practice? Well... let me tell you a story.
