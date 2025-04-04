@@ -42,7 +42,7 @@ To illustrate, let me share two real-world scenarios that recently caused frustr
 
 <div style={{textAlign: 'center'}}>
 
-![Example 1: Ignoring Instructions](/img/blog/mistake-example-1.png)
+![Example 1: Ignoring Instructions](/img/blog/mistake-example-1.jpg)
 
 </div>
 
@@ -58,7 +58,7 @@ Here, the AI assistant quickly apologizes—but it never explains what triggered
 
 <div style={{textAlign: 'center'}}>
 
-![Example 2: Stopping Mid-task](/img/blog/mistake-example-2.png)
+![Example 2: Stopping Mid-task](/img/blog/mistake-example-2.jpg)
 
 </div>
 

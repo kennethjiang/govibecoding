@@ -14,7 +14,7 @@ Embarking on the journey of translating C++ code into TypeScript, I enlisted the
 
 ## **"Lazy" AI**
 
-![LLM Lazy Summarization](/img/blog/llm-lazy-summarization.png)
+![LLM Lazy Summarization](/img/blog/llm-lazy-summarization.jpg)
 
 **My prompt is as follows:**
 *write equivalent typescript code that is a FAITHFUL, LINE-BY-LINE, FAITHFUL translation of the Config.hpp and Config.cpp files. Try to maintain the type-safety using the typescript types that are closest to the original c++ structs/classes. Whenever possible, maintain the original file and class structure found in the c++ source files.*

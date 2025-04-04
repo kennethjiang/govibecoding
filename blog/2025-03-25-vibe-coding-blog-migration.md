@@ -5,7 +5,7 @@ authors: [kennethjiang]
 tags: [vibe-coding, docusaurus, blog, seo, development]
 ---
 
-![From Hashnode to Docusaurus: A Vibe Coding Journey](/img/blog/vibe-coding-blog-migration-cover.png)
+![From Hashnode to Docusaurus: A Vibe Coding Journey](/img/blog/vibe-coding-blog-migration-cover.jpg)
 
 ## Context
 
