@@ -141,7 +141,7 @@ const config = {
       {name: 'og:image', content: 'https://govibecoding.com/img/og-image.png'},
       {name: 'og:image:alt', content: 'The Vibe Coding Blog - Programming with AI assistance'},
       {name: 'og:site_name', content: 'The Vibe Coding Blog'},
-      {name: 'description', content: 'Learn about vibe coding - the approach coined by Andrej Karpathy where developers use AI and large language models to generate code through natural language prompts. Discover techniques for effective prompt engineering, AI-assisted development, and the changing role of programmers.'},
+      {name: 'description', content: 'Learn about vibe coding - AI-assisted programming using natural language prompts to generate code. Discover effective prompt engineering and AI development techniques.'},
     ],
     image: 'img/og-image.png',
     navbar: {
