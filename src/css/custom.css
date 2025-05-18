@@ -70,3 +70,29 @@
 .pwa-reload-popup button:hover {
   background-color: var(--ifm-color-primary-dark);
 }
+
+/* Image gallery styles */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.02);
+}
+
+/* Make the gallery responsive */
+@media (max-width: 768px) {
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+}

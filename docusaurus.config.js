@@ -97,6 +97,7 @@ const config = {
         ],
       },
     ],
+    'docusaurus-plugin-image-zoom',
   ],
 
   presets: [
@@ -144,6 +145,16 @@ const config = {
       {name: 'description', content: 'Learn about vibe coding - AI-assisted programming using natural language prompts to generate code. Discover effective prompt engineering and AI development techniques.'},
     ],
     image: 'img/og-image.png',
+    zoom: {
+      selector: '.markdown img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+        // Options from medium-zoom library
+      }
+    },
     navbar: {
       title: 'The Vibe Coding Blog',
       logo: {

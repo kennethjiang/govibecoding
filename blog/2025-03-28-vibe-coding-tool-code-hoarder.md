@@ -83,6 +83,22 @@ To mitigate these pitfalls, here's some practical advice:
 * Commit atomically—smaller, focused changes reveal duplication quickly.
 * Combine AI-generated code with pre-commit linting and strict code review checklists.
 
+## Example Images
+
+Here are some examples of the duplicate files that were created during my session:
+
+<div class="image-gallery">
+
+![Example 1: Duplicate files in iOS directory](/img/blog/vibe-coding-tool-code-hoarder-example-1.png)
+
+![Example 2: Duplicate files in archive_processing directory](/img/blog/vibe-coding-tool-code-hoarder-example-2.png)
+
+![Example 3: Orphaned files that were missed during cleanup](/img/blog/vibe-coding-tool-code-hoarder-example-3.png)
+
+![Example 4: Final state after manual cleanup](/img/blog/vibe-coding-tool-code-hoarder-example-4.png)
+
+</div>
+
 ## Conclusion & Takeaway
 
 Despite knowing the habits of vibe coding tools, I was still taken aback by the stubborn persistence of duplicate files even after clear prompts. Until AI tools gain better filesystem awareness, don't let them run unchecked on your repository. Minimalism is key—so stay vigilant and skeptical when your vibe coder says, "Don't worry, I cleaned that up."
