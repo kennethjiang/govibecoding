@@ -1,6 +1,6 @@
 ---
 slug: ai-git-gone-rogue
-title: "⚠️ When AI Goes Rogue with Git: A Cautionary Tale of Rebase, Reset, and Regret"
+title: "When AI Goes Rogue with Git: A Cautionary Tale of Rebase, Reset, and Regret"
 authors: [kennethjiang]
 tags: [ai-coding, git, ai-assistant, llm, vibe-coding, code-safety, development, Large-Language-Models-limitations]
 ---
