@@ -5,6 +5,8 @@ authors: [kennethjiang]
 tags: [ai-coding, git, ai-assistant, llm, vibe-coding, code-safety, development, Large-Language-Models-limitations]
 ---
 
+![When AI Goes Rogue with Git](/img/blog/ai-git-gone-rogue-cover.png)
+
 AI coding assistants can be incredibly helpful — until they aren't.
 
 Recently, I asked my AI assistant to help rebase my local main branch onto an upstream repository. What followed was a seemingly helpful but quietly destructive sequence of Git operations, carried out without sufficient warning or consent. The AI confidently moved forward, using commands like `git reset` and `git push --force-with-lease` — powerful tools that should never be used lightly.
