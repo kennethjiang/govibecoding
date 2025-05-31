@@ -5,7 +5,7 @@ authors: [kennethjiang]
 tags: [ai-coding, git, ai-assistant, llm, vibe-coding, code-safety, development, Large-Language-Models-limitations]
 ---
 
-![When AI Goes Rogue with Git](/img/blog/ai-git-gone-rogue-cover.png)
+![When AI Goes Rogue with Git](/img/blog/ai-git-gone-rogue-cover.jpg)
 
 AI coding assistants can be incredibly helpful — until they aren't.
 
