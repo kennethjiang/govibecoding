@@ -177,20 +177,20 @@ Let this be your reminder:
 
 <div class="image-gallery">
 
-![Screenshot 1](/img/ai-git-gone-rogue-screenshot-1.png)
+![Screenshot 1](/img/blog/ai-git-gone-rogue-screenshot-1.png)
 
-![Screenshot 2](/img/ai-git-gone-rogue-screenshot-2.png)
+![Screenshot 2](/img/blog/ai-git-gone-rogue-screenshot-2.png)
 
-![Screenshot 3](/img/ai-git-gone-rogue-screenshot-3.png)
+![Screenshot 3](/img/blog/ai-git-gone-rogue-screenshot-3.png)
 
-![Screenshot 4](/img/ai-git-gone-rogue-screenshot-4.png)
+![Screenshot 4](/img/blog/ai-git-gone-rogue-screenshot-4.png)
 
-![Screenshot 5](/img/ai-git-gone-rogue-screenshot-5.png)
+![Screenshot 5](/img/blog/ai-git-gone-rogue-screenshot-5.png)
 
-![Screenshot 6](/img/ai-git-gone-rogue-screenshot-6.png)
+![Screenshot 6](/img/blog/ai-git-gone-rogue-screenshot-6.png)
 
-![Screenshot 7](/img/ai-git-gone-rogue-screenshot-7.png)
+![Screenshot 7](/img/blog/ai-git-gone-rogue-screenshot-7.png)
 
-![Screenshot 8](/img/ai-git-gone-rogue-screenshot-8.png)
+![Screenshot 8](/img/blog/ai-git-gone-rogue-screenshot-8.png)
 
 </div>
